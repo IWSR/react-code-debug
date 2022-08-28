@@ -1,19 +1,25 @@
-import { useState } from 'react';
-import Test from './components/test';
+// import { useState } from 'react';
+// import Test from './components/test';
+// import SchedulerTest from './components/ScheduleTest';
+import TasksWithDifferentPriorities from './components/TasksWithDifferentPriorities';
+import UseEffectAnduseLayoutEffect from './components/UseEffectAndUseLayoutEffect';
 
 export default function App() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
   return (
     <div>
-      <p>{count}</p>
+      {/* <p>{count}</p>
       <input
         type="button"
         value="增加"
         onClick={() => {
           setCount(count + 1);
         }}
-      />
-      <Test />
+      /> */}
+      {/* <Test /> */}
+      {/* <SchedulerTest /> */}
+      {/* <TasksWithDifferentPriorities /> */}
+      <UseEffectAnduseLayoutEffect />
     </div>
   );
 }
