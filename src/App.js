@@ -1,8 +1,9 @@
 // import { useState } from 'react';
-// import Test from './components/test';
+import Test from './components/test';
 // import SchedulerTest from './components/ScheduleTest';
 import TasksWithDifferentPriorities from './components/TasksWithDifferentPriorities';
-import UseEffectAnduseLayoutEffect from './components/UseEffectAndUseLayoutEffect';
+// import UseEffectAnduseLayoutEffect from './components/UseEffectAndUseLayoutEffect';
+import UseState from './components/UseState';
 
 export default function App() {
   // const [count, setCount] = useState(0);
@@ -19,7 +20,8 @@ export default function App() {
       {/* <Test /> */}
       {/* <SchedulerTest /> */}
       {/* <TasksWithDifferentPriorities /> */}
-      <UseEffectAnduseLayoutEffect />
+      {/* <UseEffectAnduseLayoutEffect /> */}
+      <UseState />
     </div>
   );
 }

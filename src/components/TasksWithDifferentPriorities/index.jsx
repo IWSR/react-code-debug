@@ -34,9 +34,11 @@ class NewDemo extends React.Component {
   }
   onBeginTask = () => {
     const button = this.buttonRef.current
-    setTimeout( () => this.setState( prevState => {
-      return { count: prevState.count + 1 }
-    } ), 500 )
+    setTimeout( () => React.startTransition(
+      this.setState( prevState => {
+        return { count: prevState.count + 1 }
+      } )
+    ), 500 )
     setTimeout( () => button.click(), 600)
   }
   onDragHandler = e => {

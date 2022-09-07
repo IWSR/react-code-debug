@@ -11,17 +11,17 @@ function UseEffectAnduseLayoutEffect() {
     }
   }, [text]);
 
-  useLayoutEffect(() => {
-    let i = 0;
-    while (i < 10000000000) {
-      i += 1
-    }
-    console.log('useLayoutEffect create', i);
+  // useLayoutEffect(() => {
+  //   let i = 0;
+  //   while (i < 10000000000) {
+  //     i += 1
+  //   }
+  //   console.log('useLayoutEffect create', i);
 
-    return () => {
-      console.log('useLayoutEffect destroy');
-    }
-  }, [text]);
+  //   return () => {
+  //     console.log('useLayoutEffect destroy');
+  //   }
+  // }, [text]);
 
   return (
     <div onClick={ () => { setText(1) } }>{ text }</div>
