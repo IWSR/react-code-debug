@@ -1,8 +1,7 @@
-// import { useState } from 'react';
 import Test from './components/test';
-// import SchedulerTest from './components/ScheduleTest';
+import SchedulerTest from './components/ScheduleTest';
 import TasksWithDifferentPriorities from './components/TasksWithDifferentPriorities';
-// import UseEffectAnduseLayoutEffect from './components/UseEffectAndUseLayoutEffect';
+import UseEffectAnduseLayoutEffect from './components/UseEffectAndUseLayoutEffect';
 import UseState from './components/UseState';
 
 export default function App() {
