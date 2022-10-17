@@ -18,9 +18,9 @@ export default function App() {
       /> */}
       {/* <Test /> */}
       {/* <SchedulerTest /> */}
-      {/* <TasksWithDifferentPriorities /> */}
+      <TasksWithDifferentPriorities />
       {/* <UseEffectAnduseLayoutEffect /> */}
-      <UseState />
+      {/* <UseState /> */}
     </div>
   );
 }

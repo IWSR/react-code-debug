@@ -28,16 +28,20 @@ class NewDemo extends React.Component {
     //     Result state: 3
   }
   handleButtonClick = () => {
-    this.setState( prevState => {
-      return { count: prevState.count + 2 }
-    } )
+    React.startTransition(() => {
+      this.setState( prevState => {
+        return { count: prevState.count + 2 }
+      } )
+    });
   }
   onBeginTask = () => {
     const button = this.buttonRef.current
     setTimeout( () => React.startTransition(
-      this.setState( prevState => {
-        return { count: prevState.count + 1 }
-      } )
+      () => {
+        this.setState( prevState => {
+          return { count: prevState.count + 1 }
+        } )
+      }
     ), 500 )
     setTimeout( () => button.click(), 600)
   }
