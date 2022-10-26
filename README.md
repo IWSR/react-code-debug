@@ -15,4 +15,10 @@ Happy Hacking
 
 [React Hooks: useEffect与useLayoutEffect](https://github.com/IWSR/react-code-debug/issues/1)
 
+[React Hooks: useRef & Refs](https://github.com/IWSR/react-code-debug/issues/6)
+
+[React Hooks: useCallback & useMemo](https://github.com/IWSR/react-code-debug/issues/7)  施工中
+
+[React Hooks: useContext](https://github.com/IWSR/react-code-debug/issues/8)  施工中
+
 [React Hooks: 附录](https://github.com/IWSR/react-code-debug/issues/4)
