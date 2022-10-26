@@ -3,6 +3,7 @@ import SchedulerTest from './components/ScheduleTest';
 import TasksWithDifferentPriorities from './components/TasksWithDifferentPriorities';
 import UseEffectAnduseLayoutEffect from './components/UseEffectAndUseLayoutEffect';
 import UseState from './components/UseState';
+import UseRef from './components/UseRef';
 
 export default function App() {
   // const [count, setCount] = useState(0);
@@ -18,9 +19,10 @@ export default function App() {
       /> */}
       {/* <Test /> */}
       {/* <SchedulerTest /> */}
-      <TasksWithDifferentPriorities />
+      {/* <TasksWithDifferentPriorities /> */}
       {/* <UseEffectAnduseLayoutEffect /> */}
       {/* <UseState /> */}
+      <UseRef />
     </div>
   );
 }

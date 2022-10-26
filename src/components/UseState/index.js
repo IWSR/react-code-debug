@@ -55,15 +55,20 @@
  * 例子3 batch update
 */
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 function UseState() {
   const [num1, setNum1] = useState(1);
   const [num2, setNum2] = useState(2);
+  const [num3, setNum3] = useState(3);
 
   useEffect(() => {
-    setNum1(11);
-    setNum2(22);
+    let i = 0;
+    while (i < 1000000000) {
+      i++
+    }
+    setNum1(111);
+    setNum2(222);
 
     // setTimeout(() => {
     //   setNum1(11);
@@ -72,10 +77,16 @@ function UseState() {
     // }, 1000);
   }, []);
 
+  const clickHandle = useCallback(() => {
+    setNum3(333);
+  }, []);
+
   return (
     <>
       <div>{ num1 }</div>
       <div>{ num2 }</div>
+      <p onClick={clickHandle}>click me</p>
+      <div>{ num3 }</div>
     </>
   )
 }
