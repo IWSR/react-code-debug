@@ -4,6 +4,7 @@ import TasksWithDifferentPriorities from './components/TasksWithDifferentPriorit
 import UseEffectAnduseLayoutEffect from './components/UseEffectAndUseLayoutEffect';
 import UseState from './components/UseState';
 import UseRef from './components/UseRef';
+import UseCallbackAndUseMemo from './components/UseCallback&UseMemo';
 
 export default function App() {
   // const [count, setCount] = useState(0);
@@ -22,7 +23,8 @@ export default function App() {
       {/* <TasksWithDifferentPriorities /> */}
       {/* <UseEffectAnduseLayoutEffect /> */}
       {/* <UseState /> */}
-      <UseRef />
+      {/* <UseRef /> */}
+      <UseCallbackAndUseMemo />
     </div>
   );
 }
