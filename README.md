@@ -19,6 +19,6 @@ Happy Hacking
 
 [React Hooks: useCallback & useMemo](https://github.com/IWSR/react-code-debug/issues/7)
 
-[React Hooks: useContext](https://github.com/IWSR/react-code-debug/issues/8)  施工中
+[React Hooks: useContext & Context](https://github.com/IWSR/react-code-debug/issues/8)
 
 [React Hooks: 附录](https://github.com/IWSR/react-code-debug/issues/4)

@@ -5,26 +5,29 @@ import UseEffectAnduseLayoutEffect from './components/UseEffectAndUseLayoutEffec
 import UseState from './components/UseState';
 import UseRef from './components/UseRef';
 import UseCallbackAndUseMemo from './components/UseCallback&UseMemo';
+import App from './components/UseContext';
 
-export default function App() {
-  // const [count, setCount] = useState(0);
-  return (
-    <div>
-      {/* <p>{count}</p>
-      <input
-        type="button"
-        value="增加"
-        onClick={() => {
-          setCount(count + 1);
-        }}
-      /> */}
-      {/* <Test /> */}
-      {/* <SchedulerTest /> */}
-      {/* <TasksWithDifferentPriorities /> */}
-      {/* <UseEffectAnduseLayoutEffect /> */}
-      {/* <UseState /> */}
-      {/* <UseRef /> */}
-      <UseCallbackAndUseMemo />
-    </div>
-  );
-}
+// export default function App() {
+//   // const [count, setCount] = useState(0);
+//   return (
+//     <div>
+//       {/* <p>{count}</p>
+//       <input
+//         type="button"
+//         value="增加"
+//         onClick={() => {
+//           setCount(count + 1);
+//         }}
+//       /> */}
+//       {/* <Test /> */}
+//       {/* <SchedulerTest /> */}
+//       {/* <TasksWithDifferentPriorities /> */}
+//       {/* <UseEffectAnduseLayoutEffect /> */}
+//       {/* <UseState /> */}
+//       {/* <UseRef /> */}
+//       <UseCallbackAndUseMemo />
+//     </div>
+//   );
+// }
+
+export default App;
