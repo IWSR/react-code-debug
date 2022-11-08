@@ -13,6 +13,8 @@ Happy Hacking
 
 [React Hooks: useState](https://github.com/IWSR/react-code-debug/issues/3)
 
+[React Hooks: useReducer 分析](https://github.com/IWSR/react-code-debug/issues/10)
+
 [React Hooks: useEffect与useLayoutEffect](https://github.com/IWSR/react-code-debug/issues/1)
 
 [React Hooks: useRef & Refs](https://github.com/IWSR/react-code-debug/issues/6)
