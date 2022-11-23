@@ -23,4 +23,6 @@ Happy Hacking
 
 [React Hooks: useContext & Context](https://github.com/IWSR/react-code-debug/issues/8)
 
+[React.memo](https://github.com/IWSR/react-code-debug/issues/9)
+
 [React Hooks: 附录](https://github.com/IWSR/react-code-debug/issues/4)
