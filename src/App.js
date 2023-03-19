@@ -25,11 +25,11 @@ export default function App() {
       {/* <SchedulerTest /> */}
       {/* <TasksWithDifferentPriorities /> */}
       {/* <UseEffectAnduseLayoutEffect /> */}
-      {/* <UseState /> */}
+      <UseState />
       {/* <UseRef /> */}
       {/* <UseCallbackAndUseMemo /> */}
       {/* <UseReducer initialCount={3}/> */}
-      <ReactMemo />
+      {/* <ReactMemo /> */}
     </div>
   );
 }
