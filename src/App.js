@@ -8,6 +8,7 @@ import UseCallbackAndUseMemo from './components/UseCallback&UseMemo';
 import UseReducer from './components/UseReducer';
 import ReactMemo from './components/ReactMemo';
 // import App from './components/UseContext';
+import SuspenseTest from './components/suspense/index';
 
 export default function App() {
   // const [count, setCount] = useState(0);
@@ -25,11 +26,12 @@ export default function App() {
       {/* <SchedulerTest /> */}
       {/* <TasksWithDifferentPriorities /> */}
       {/* <UseEffectAnduseLayoutEffect /> */}
-      <UseState />
+      {/* <UseState /> */}
       {/* <UseRef /> */}
       {/* <UseCallbackAndUseMemo /> */}
       {/* <UseReducer initialCount={3}/> */}
       {/* <ReactMemo /> */}
+      <SuspenseTest />
     </div>
   );
 }
