@@ -27,4 +27,6 @@ Happy Hacking
 
 [React.memo](https://github.com/IWSR/react-code-debug/issues/9)
 
+[React Suspense 源码解析](https://github.com/IWSR/react-code-debug/issues/12)
+
 [React Hooks: 附录](https://github.com/IWSR/react-code-debug/issues/4)
